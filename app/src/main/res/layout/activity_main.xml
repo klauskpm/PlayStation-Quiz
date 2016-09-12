@@ -47,7 +47,7 @@
         <TextView
             android:id="@+id/question_2__text_view"
             style="@style/QuestionText"
-            android:labelFor="@id/answer_question_2__edit_text"
+            android:labelFor="@+id/answer_question_2__edit_text"
             android:text="2) What is Sony doing?" />
 
         <EditText
