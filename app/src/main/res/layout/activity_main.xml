@@ -93,5 +93,12 @@
                 android:layout_below="@+id/answer_3_question_3__check_box"
                 android:text="@string/ps4_s" />
         </RelativeLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/submit"
+            style="@style/QuizButton"/>
     </LinearLayout>
 </ScrollView>
