@@ -12,4 +12,8 @@
     <string name="ps4_pro">PS4 Pro</string>
     <string name="ps4_s">PS4 S</string>
     <string name="submit">Submit</string>
+    <string name="question_4">4) Which were the PS+ games of September 2016?</string>
+    <string name="journey_and_infamous">Journey and Infamous Second Son</string>
+    <string name="infamous_and_lords">Infamous Second Son and Lords of the Fallen</string>
+    <string name="lords_and_journey">Lords of the Fallen and Journey</string>
 </resources>
