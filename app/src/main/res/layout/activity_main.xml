@@ -10,7 +10,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="br.com.klauskpm.playstationquiz.MainActivity">
 
-    <RelativeLayout style="@style/QuizBox">
+    <RelativeLayout style="@style/QuestionBox">
 
         <TextView
             android:id="@+id/question_1__text_view"
@@ -42,7 +42,7 @@
 
     <View style="@style/QuestionDivider"></View>
 
-    <RelativeLayout style="@style/QuizBox">
+    <RelativeLayout style="@style/QuestionBox">
 
         <TextView
             android:id="@+id/question_2__text_view"
@@ -58,7 +58,7 @@
 
     <View style="@style/QuestionDivider"></View>
 
-    <RelativeLayout style="@style/QuizBox">
+    <RelativeLayout style="@style/QuestionBox">
 
         <TextView
             android:id="@+id/question_3__text_view"
