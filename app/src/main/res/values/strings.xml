@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">PlayStation Quiz</string>
+    <string name="question_1">1) What new game PlayStation showed at E3 2016?</string>
+    <string name="day_s_gone">Day\'s Gone</string>
+    <string name="the_last_guardian">The Last Guardian</string>
+    <string name="mario_party_8">Mario Party 8</string>
+    <string name="uncharted_4">Uncharted 4</string>
+    <string name="question_2">2) What is the name of the system people use to play online on PlayStation?</string>
+    <string name="question_3">3) Choose which systems are real from below</string>
+    <string name="ps4_elite">PS4 Elite</string>
+    <string name="ps4_slim">PS4 Slim</string>
+    <string name="ps4_pro">PS4 Pro</string>
+    <string name="ps4_s">PS4 S</string>
 </resources>

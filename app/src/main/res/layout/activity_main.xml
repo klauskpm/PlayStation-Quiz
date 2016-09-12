@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="br.com.klauskpm.playstationquiz.MainActivity">
 
-    <RelativeLayout style="@style/QuestionBox">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/question_1__text_view"
-            style="@style/QuestionText"
-            android:text="1) Question?\nOther thing?" />
+        <RelativeLayout style="@style/QuestionBox">
 
-        <RadioGroup
-            style="@style/Answer.RadioGroup"
-            android:layout_below="@+id/question_1__text_view">
+            <TextView
+                android:id="@+id/question_1__text_view"
+                style="@style/QuestionText"
+                android:text="@string/question_1" />
 
-            <RadioButton
-                style="@style/Answer.RadioButton"
-                android:text="Answer 1" />
+            <RadioGroup
+                style="@style/Answer.RadioGroup"
+                android:layout_below="@+id/question_1__text_view">
 
-            <RadioButton
-                style="@style/Answer.RadioButton"
-                android:text="Answer 2" />
+                <RadioButton
+                    style="@style/Answer.RadioButton"
+                    android:text="@string/day_s_gone" />
 
-            <RadioButton
-                style="@style/Answer.RadioButton"
-                android:text="Answer 3" />
+                <RadioButton
+                    style="@style/Answer.RadioButton"
+                    android:text="@string/the_last_guardian" />
 
-            <RadioButton
-                style="@style/Answer.RadioButton"
-                android:text="Answer 4" />
-        </RadioGroup>
+                <RadioButton
+                    style="@style/Answer.RadioButton"
+                    android:text="@string/mario_party_8" />
 
-    </RelativeLayout>
+                <RadioButton
+                    style="@style/Answer.RadioButton"
+                    android:text="@string/uncharted_4" />
+            </RadioGroup>
 
-    <View style="@style/QuestionDivider"></View>
+        </RelativeLayout>
 
-    <RelativeLayout style="@style/QuestionBox">
+        <View style="@style/QuestionDivider"></View>
 
-        <TextView
-            android:id="@+id/question_2__text_view"
-            style="@style/QuestionText"
-            android:labelFor="@+id/answer_question_2__edit_text"
-            android:text="2) What is Sony doing?" />
+        <RelativeLayout style="@style/QuestionBox">
 
-        <EditText
-            android:id="@+id/answer_question_2__edit_text"
-            style="@style/Answer.EditText.Number"
-            android:layout_below="@+id/question_2__text_view" />
-    </RelativeLayout>
+            <TextView
+                android:id="@+id/question_2__text_view"
+                style="@style/QuestionText"
+                android:labelFor="@+id/answer_question_2__edit_text"
+                android:text="@string/question_2" />
 
-    <View style="@style/QuestionDivider"></View>
+            <EditText
+                android:id="@+id/answer_question_2__edit_text"
+                style="@style/Answer.EditText.Number"
+                android:layout_below="@+id/question_2__text_view" />
+        </RelativeLayout>
 
-    <RelativeLayout style="@style/QuestionBox">
+        <View style="@style/QuestionDivider"></View>
 
-        <TextView
-            android:id="@+id/question_3__text_view"
-            style="@style/QuestionText.BottomSpace"
-            android:text="3) Soo many options?" />
+        <RelativeLayout style="@style/QuestionBox">
 
-        <CheckBox
-            android:id="@+id/answer_1_question_3__check_box"
-            style="@style/Answer.CheckBox"
-            android:layout_below="@+id/question_3__text_view"
-            android:text="Answer 1" />
+            <TextView
+                android:id="@+id/question_3__text_view"
+                style="@style/QuestionText.BottomSpace"
+                android:text="@string/question_3" />
 
-        <CheckBox
-            android:id="@+id/answer_2_question_3__check_box"
-            style="@style/Answer.CheckBox"
-            android:layout_below="@+id/answer_1_question_3__check_box"
-            android:text="Answer 2" />
+            <CheckBox
+                android:id="@+id/answer_1_question_3__check_box"
+                style="@style/Answer.CheckBox"
+                android:layout_below="@+id/question_3__text_view"
+                android:text="@string/ps4_elite" />
 
-        <CheckBox
-            android:id="@+id/answer_3_question_3__check_box"
-            style="@style/Answer.CheckBox"
-            android:layout_below="@+id/answer_2_question_3__check_box"
-            android:text="Answer 3" />
+            <CheckBox
+                android:id="@+id/answer_2_question_3__check_box"
+                style="@style/Answer.CheckBox"
+                android:layout_below="@+id/answer_1_question_3__check_box"
+                android:text="@string/ps4_slim" />
 
-        <CheckBox
-            android:id="@+id/answer_4_question_3__check_box"
-            style="@style/Answer.CheckBox"
-            android:layout_below="@+id/answer_3_question_3__check_box"
-            android:text="Answer 4" />
-    </RelativeLayout>
-</LinearLayout>
+            <CheckBox
+                android:id="@+id/answer_3_question_3__check_box"
+                style="@style/Answer.CheckBox"
+                android:layout_below="@+id/answer_2_question_3__check_box"
+                android:text="@string/ps4_pro" />
+
+            <CheckBox
+                android:id="@+id/answer_4_question_3__check_box"
+                style="@style/Answer.CheckBox"
+                android:layout_below="@+id/answer_3_question_3__check_box"
+                android:text="@string/ps4_s" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
