@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PlayStation Quiz</string>
+    <string name="infamous_and_lords">Infamous Second Son e Lords of the Fallen</string>
+    <string name="journey_and_infamous">Journey e Infamous Second Son</string>
+    <string name="lords_and_journey">Lords of the Fallen e Journey</string>
+    <string name="question_1">1) Que jogo novo a PlayStation mostrou na E3 de 2016?</string>
+    <string name="question_2">2) Qual nome do sistema que as pessoas usam para jogar online no PlayStation?</string>
+    <string name="question_3">3) Das opções abaixo, escolha os sistemas que são reais</string>
+    <string name="question_4">4) Quais foram os jogos do PS+ de Setembro de 2016?</string>
+    <string name="submit">Enviar</string>
+    <string name="network_hint">Tem N de network(rede)</string>
+</resources>
