@@ -30,6 +30,11 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    /**
+     * Check the questions's answers and sum their score
+     *
+     * @return the total of points from the correct answers
+     */
     private double checkAnswers() {
         double points = 0.0;
 
@@ -41,6 +46,11 @@ public class MainActivity extends AppCompatActivity {
         return points;
     }
 
+    /**
+     * Send a toast message based on the points
+     *
+     * @param points scored by correct answers
+     */
     private void sendMessage(double points) {
         Context context = getApplicationContext();
         int duration = Toast.LENGTH_SHORT;
@@ -60,6 +70,11 @@ public class MainActivity extends AppCompatActivity {
         toast.show();
     }
 
+    /**
+     * Checks the first question and score if correct
+     *
+     * @return the score
+     */
     private double checkQuestion1() {
         RadioGroup radioGroup = (RadioGroup) findViewById(R.id.question_1__radio_group);
         int checkedId = radioGroup.getCheckedRadioButtonId();
@@ -75,6 +90,11 @@ public class MainActivity extends AppCompatActivity {
         return 0;
     }
 
+    /**
+     * Checks the second question and score if correct
+     *
+     * @return the score
+     */
     private double checkQuestion2() {
         EditText editText = (EditText) findViewById(R.id.answer_question_2__edit_text);
         String text = editText.getText().toString();
@@ -86,6 +106,11 @@ public class MainActivity extends AppCompatActivity {
         return 0;
     }
 
+    /**
+     * Checks the third question and score if correct
+     *
+     * @return the score
+     */
     private double checkQuestion3() {
         double points = 0.0;
         double pointPerChoice = 0.5;
@@ -110,6 +135,11 @@ public class MainActivity extends AppCompatActivity {
         return points;
     }
 
+    /**
+     * Checks the fourth question and score if correct
+     *
+     * @return the score
+     */
     private double checkQuestion4() {
         RadioGroup radioGroup = (RadioGroup) findViewById(R.id.questio_4__radio_group);
         int checkedId = radioGroup.getCheckedRadioButtonId();
